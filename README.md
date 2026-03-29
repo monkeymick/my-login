@@ -9,11 +9,11 @@
 
 ### Backend
 
-cd backend_login
-dotnet run
+- cd backend_login
+- dotnet run
 
 ### Frontend
 
-cd frontend_login
-npm install
-ng serve
+- cd frontend_login
+- npm install
+- ng serve
