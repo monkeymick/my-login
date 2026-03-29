@@ -1,0 +1,87 @@
+/* พื้นหลัง */
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: Arial, sans-serif;
+}
+
+/* card */
+.card {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* title */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* input group */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* input */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+/* button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* primary */
+.primary {
+  background: #4facfe;
+  color: white;
+}
+
+.primary:hover {
+  background: #3b8eea;
+}
+
+/* secondary */
+.secondary {
+  background: #8b87877a;
+}
+
+.secondary:hover {
+  background: #ddd;
+}
+
+/* divider */
+.divider {
+  margin: 15px 0;
+  font-size: 14px;
+  color: gray;
+}
